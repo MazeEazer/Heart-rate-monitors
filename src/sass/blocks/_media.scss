@@ -102,6 +102,23 @@
       justify-content: space-around;
     }
   }
+  .consultation{
+    min-height: 500px;
+
+    .title{
+     &__left{
+       font-size: 25px;
+       text-align: center;
+     }
+    }
+    &__descr{
+     text-align: center;
+    }
+    .feed-form{
+     padding-top: 20px;
+     margin: 0 auto;
+    }
+   }
 }
 
 
