@@ -8,7 +8,7 @@ $(document).ready(function(){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 991,
+          breakpoint: 992,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
