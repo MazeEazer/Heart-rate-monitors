@@ -25,6 +25,14 @@
       left: auto;
   }
 }
+/* @media (max-width: 991px){
+  carousel .slick-next {
+    right: -52px;
+  }
+  carousel .slick-prev {
+    right: -52px;
+  }
+} */
 @media (max-width: 767px){
   .carousel {
     &__inner {
