@@ -169,3 +169,27 @@
       }
   }
 }
+@media (max-width: 767px){
+  .catalog{
+    &__tab{
+      font-size: 15px;
+    }
+    &-item {
+    width: 250px;}
+  }
+}
+@media (max-width: 575px){
+  .catalog{
+    &__tab{
+      display: flex;
+      justify-content: center; /* Горизонтальное выравнивание по центру */
+      align-items: center;
+      font-size: 12px;
+      line-height: 15px;
+     
+    }
+    &-item{
+      margin: 0 auto;
+    }
+  }
+}
