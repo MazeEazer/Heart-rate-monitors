@@ -7,6 +7,14 @@
   font-weight: 700;
   color: #0d0d0d;
   padding-bottom: 78px;
+  &__pic{
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      &:hover{
+        animation-play-state: paused;
+      }
+    }
+  }
   &__icons{
    
     margin-top: 65px;
@@ -20,6 +28,7 @@
     font-size: 14px;
     font-weight: 300;
     color: #0d0d0d;
+    
     img{
 
       display: block;

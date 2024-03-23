@@ -12,7 +12,7 @@
    <title>Document</title>
 </head>
 <body>
-  <section class="promo">
+  <section id="up" class="promo">
     <div class="container">
       <header class="header">
         <a href="#"class="header__logo">
@@ -73,7 +73,7 @@
           </div>
           <div class="advantages__icon">
            
-            <img src="/src/icons/advantages/heart.png" alt="">
+            <img src="/src/icons/advantages/heart.png" alt="heart" class="advantages__pic advantages__pic_animated">
             <div class="icon__label">Заботимся о здоровье</div>
             Мы работаем для того, 
 чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -98,16 +98,16 @@
       <div class="consultation__descr">
         Просто заполните форму заявки и мы перезвоним вам в течении 10 минут 
       </div>
-      <form class="feed-form" action="#"> 
+      <form id="consultation-form"  class="feed-form" action="#"> 
         <input name="name" required placeholder="Ваше имя"  type="text">
-        <input name="phone"required placeholder="Ваш телефон"  type="number">
+        <input name="phone"required placeholder="Ваш телефон">
         <input name="email"  required placeholder="Ваш E-mail"  type="email">
         <button class="button button_submit">Заказать консультацию</button>
       </form>
     </div>
   </section>
   <section class="carousel">
-    <div class="container">
+    <div class="container"> 
         <div class="carousel__inner">
             <div>
                 <img src="img/slide_1.jpg" alt="slide">
@@ -515,7 +515,7 @@
     <div class="modl__descr">и мы вам перезвоним в течении 10 минут</div>
     <form class="feed-form feed-form_mt25" action="#"> 
       <input name="name" required placeholder="Ваше имя"  type="text">
-      <input name="phone"required placeholder="Ваш телефон"  type="number">
+      <input name="phone"required placeholder="Ваш телефон">
       <input name="email"  required placeholder="Ваш E-mail"  type="email">
 
       <button class="button button_submit">Заказать консультацию</button>
@@ -528,7 +528,7 @@
       <div class="modl__descr"> Пульсометр Polar FT1 </div>
       <form class="feed-form feed-form_mt25" action="#"> 
         <input name="name" required placeholder="Ваше имя"  type="text">
-        <input name="phone"required placeholder="Ваш телефон"  type="number">
+        <input name="phone"required placeholder="Ваш телефон">
         <input name="email"  required placeholder="Ваш E-mail"  type="email">
   
         <button class="button button_submit">Купить</button>
@@ -547,24 +547,17 @@
 
 
 </div>
-<!-- <div class="overlay">
-  <div class="modal">
-  <div class="modal__close">&times;</div>
-  <div class="modal__subtitle"></div>
-  <div class="modal__descr"></div>
-  <form class="feed-form" action="#"> 
-    <input name="name" required placeholder="Ваше имя"  type="text">
-    <input name="phone"required placeholder="Ваш телефон"  type="number">
-    <input name="email"  required placeholder="Ваш E-mail"  type="email">
-    <button class="button button_submit">Заказать консультацию</button>
-  </form>
-</div>
-</div> -->
+
+<a href="#up" class="pageup">
+  <img src="icons/up.svg" alt="up" class="pageup">
+</a>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/script.js"></script>
-  
+
 </body>
 </html>

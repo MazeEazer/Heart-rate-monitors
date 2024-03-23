@@ -49,3 +49,16 @@
     align-items: center;
   }
 }
+
+@media (max-width: 576px){
+  .footer{
+    &__info {
+      width: 268px;
+      height: 253px;
+      padding: 31px 10px 31px 10px;}
+    &__addr{
+      text-align: center;
+      }
+
+  }
+}
