@@ -126,4 +126,6 @@ $(document).ready(function(){
     $("html, body").animate({scrollTop: $(_href).offstet().top+"px"}); 
     return false;
   });
+
+  new WOW().init();
 });
